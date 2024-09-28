@@ -1,0 +1,6 @@
+FUNCTION Funcion1(z)
+  IMPLICIT NONE
+  INTEGER::Funcion1
+  REAL,INTENT(IN)::z
+  Funcion1=exp(-z**2)
+END FUNCTION

@@ -1,0 +1,6 @@
+FUNCTION Funcion2(w)
+  IMPLICIT NONE
+  INTEGER::Funcion2
+  REAL,INTENT(IN)::w
+  Funcion2=sin(w**2)
+END FUNCTION
